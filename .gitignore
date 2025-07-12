@@ -1,0 +1,28 @@
+# Macの不要ファイル
+.DS_Store
+
+# VimやEmacsの一時ファイル
+*~
+*.swp
+*.swo
+*.bak
+
+# VSCodeやエディタの設定ファイル（使用していれば）
+.vscode/
+
+# MarkTextのバックアップ（古いバージョンで一時生成されることがある）
+*.mt-backup
+
+# MarkTextのビルトイン画像保存（オプション設定で使う人向け）
+images/
+assets/
+
+# PDFなど出力ファイル（Markdownからエクスポートした場合）
+*.pdf
+*.html
+*.docx
+*.epub
+
+# Zettelkastenを使っている場合のテンプレ
+zettelkasten-index.md
+
